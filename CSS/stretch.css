@@ -1,0 +1,17 @@
+button{
+  color : white;
+  background-color: green;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  border: none;
+  transition: padding 1s;
+}
+button:hover{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}

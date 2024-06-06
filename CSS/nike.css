@@ -1,4 +1,4 @@
-<style>
+
   button{
     width: 110px;
     height: 28px;
@@ -45,10 +45,3 @@
   .amazon:hover{
     color:rgb(255, 164, 28);
   }
-</style>
-<a href="amazon.com" target="_blank" class="amazon">Back to amazon</a>
-<p class="Nike">Nike Black Running Shoes</p>
-<p class="price">$39 - in stock</p>
-<p>Free delivery tomorrow</p>
-<button class="add">Add to cart</button> 
-<button class="buy">Buy now</button>

@@ -10,7 +10,12 @@
 	  color: white;
 	  border: none;
 	  width: 210px;
+		transition: background-color .2s;
 	}
+ .apply:hover{
+	background-color:rgb(10, 80, 150) ;
+  }
+
 	.save{
 	  background-color:white;
 	  color:rgb(10, 102, 194);
@@ -18,7 +23,12 @@
 	  border-style: solid;
 	  border-color: rgb(10, 102, 194);
 	  width: 70px;
+		transition: border-width .2s, background-color .2s;
   }
+	.save:hover{
+		background-color:rgba(10, 102, 194, 0.164);
+		border-width: 2px;
+	}
 </style>
 
 <button class="apply">Apply on company website</button>

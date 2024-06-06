@@ -10,10 +10,26 @@
   .add{
     background-color: rgb(255, 216, 20);
     margin-right: 8px;
+    transition: background-color .2s,opacity .2s;
   }
+  .add:hover {
+    background-color:rgb(209, 178, 20);
+  }
+  .add:active{
+    opacity: .6;
+  }
+
   .buy{
     background-color: rgb(255, 164, 28);
+    transition: background-color .2s,opacity .2s;
   }
+  .buy:hover{
+    background-color: rgb(194, 127, 26);
+  }
+  .buy:active{
+    opacity: .6;
+  }
+  
   .Nike{
     font-size: 20px;
     font-weight: bold;
@@ -22,8 +38,15 @@
     color: rgb(0, 118, 0);
     font-weight: bold;
   }
+  .amazon{
+    color:rgb(31, 117, 151);
+    transition: color .2s;
+  }
+  .amazon:hover{
+    color:rgb(255, 164, 28);
+  }
 </style>
-<a href="amazon.com" target="_blank">Back to amazon</a>
+<a href="amazon.com" target="_blank" class="amazon">Back to amazon</a>
 <p class="Nike">Nike Black Running Shoes</p>
 <p class="price">$39 - in stock</p>
 <p>Free delivery tomorrow</p>

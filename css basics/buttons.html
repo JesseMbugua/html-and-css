@@ -8,7 +8,15 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 1s;
   }
+  .youtube:hover{
+    opacity: 0.8;
+  }
+  .youtube:active{
+    opacity: 0.5;
+  }
+
   .join{
     background-color: white;
     color: rgb(41, 118, 211);
@@ -19,7 +27,16 @@
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 1s, color 1s;
   }
+  .join:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+  .join:active{
+    opacity: 0.7;
+  }
+
   .tweet{
     background-color: rgb(29, 155, 240);
     color: white;
@@ -31,6 +48,10 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 1s;
+  }
+  .tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0 ,0, .15);
   }
 </style>
 

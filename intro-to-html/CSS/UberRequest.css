@@ -1,0 +1,36 @@
+p{
+  font-size: 30px;
+  font-family:Roboto;
+  margin-bottom: 10px;
+}
+.dropoff,
+.pickup{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px;
+  border: none;
+  border-width: 1px;
+  background-color: rgb(240, 240, 240);
+  padding-left: 15px;
+  padding-right: 100px;
+}
+.pickup{
+  margin-bottom: 10px;
+}
+.dropoff{
+  margin-bottom: 20px;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Roboto;
+}
+.request{
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}

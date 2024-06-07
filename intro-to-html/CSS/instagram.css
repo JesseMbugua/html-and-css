@@ -1,0 +1,45 @@
+
+.pfp{
+  border-radius: 50%;
+  width: 100%;
+  
+}
+.photo{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+.info{
+  display: inline-block;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.name{
+  font-weight: bold;
+}
+.popular,.description{
+  color: rgb(126, 126, 126);
+}
+.dfollow{
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.follow{
+  margin-left: 130px;
+  background-color: rgb(0, 149, 246);
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+}

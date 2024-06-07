@@ -1,0 +1,16 @@
+div{
+  border: solid;
+  width: 300px;
+  border-width: 1px;
+  border-color: gray;
+}
+p{
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.yes {
+  margin-left: 10px;
+}
+button{
+  margin-bottom: 15px;
+}

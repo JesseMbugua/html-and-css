@@ -11,20 +11,10 @@
   vertical-align: top;
   margin-right: 10px  ;
 }
-.channel-pfp{
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
+
 .profile-picture{
-  object-fit: contain;
-  border-radius: 50%;
-  width: 100%;
-  vertical-align:top;
-}
-.v-info{
-  display: inline-block;  
-  width: 200px;
+  width: 40px;
+  border-radius: 50px;
 }
 .v-title{
   margin-top: 0px;
@@ -49,4 +39,8 @@ p{
 }
 .v-creator{
   margin-bottom: 4px;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }

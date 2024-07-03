@@ -23,8 +23,7 @@ p{
 }
 .friends{
   font-size: 13px;
-  margin-bottom: 10px;
-  display: inline-block;
+  align-items: center;
 }
 button{
   margin-left: 5px;
@@ -43,22 +42,28 @@ button{
 div{
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
   width: 200px;
-  display: inline-block;
   margin-right: 10px;
 }
 .dReal,.dName,.mutual,.dadd{
   box-shadow: 0 0 0 0;
 }
 .mutual{
-  display: inline-block;
-  vertical-align: middle;
+  align-items: center;
   color: rgb(100, 100, 100);
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 10px;
 }
 .mutual-pfp{
   height: 25px;
   width: 25px;
   object-fit: cover;
   border-radius: 14px;
-  vertical-align: middle;
   margin-left: 5px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }

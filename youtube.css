@@ -1,17 +1,10 @@
 .thumbnail{
   display: block;
-  width: 300px;
+  width: 100%;
 }
 .search-bar{
   display: block;
 }
-.video-preview{
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px  ;
-}
-
 .profile-picture{
   width: 40px;
   border-radius: 50px;
@@ -43,4 +36,10 @@ p{
 .video-info-grid{
   display: grid;
   grid-template-columns: 50px 1fr;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 16px;
 }

@@ -2,8 +2,30 @@
   position: fixed;
   left: 0px;
   bottom: 0px;
-  top: 60px;
+  top: 55px;
+  z-index: 3;
 
   background-color: white;
   width: 72px;
+  padding-top: 5px;
+}
+
+.sidebar-icons{
+  height: 74px;
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidebar-icons:hover{
+  background-color: rgb(185, 185, 185);
+}
+.sidebar-icons img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-icons div{
+  font-family: Roboto;
+  font-size: 10px;
 }

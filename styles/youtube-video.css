@@ -7,7 +7,7 @@ body {
 
 }
 .profile-picture{
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
 }
 .v-title{
@@ -15,10 +15,10 @@ body {
   font-weight: 500  ;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 .v-creator, .v-stats{
@@ -35,7 +35,7 @@ body {
 }
 .video-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 40px;
   column-gap: 16px;;
   width: 100;
@@ -52,4 +52,12 @@ body {
   background-color: rgb(0, 0, 0,0.8);
   color: white;
   z-index: 1;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.link2{
+  text-decoration: none;
+  color:rgb(96, 96, 96) ;
 }

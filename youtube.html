@@ -21,38 +21,72 @@
     <div class="middle-header">
       <input type="text" placeholder="Search" class="search-bar">
       <button class="search-button"><img class="search-icon" src="icons/Search.svg">
+        <div class="tooltip">Search</div>
       </button>
       <button class="voice-search-button"><img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-header"> 
-      <img class="upload-icon" src="icons/upload.svg">
-      <img class="menu-icon" src="icons/menu.svg">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+      <div class="tooltip">Create</div>
+    </div>
+      <div class="menu-icon-container">
+        <img class="menu-icon" src="icons/menu.svg">
+        <div class="tooltip">Youtube apps</div>
+      </div>
     <div class="notification-icon-container"><img class="notification-icon" src="icons/notifications.svg">
     <div class="notification-number">8</div>
+    <div class="tooltip">Notifications</div>
   </div>
       <img class="my-pfp" src="pfp/my channel.jpg">
     </div>
   </div>  
 
-  <div class="sidebar">Sidebar</div>
+  <div class="sidebar">
+    <div class="sidebar-icons">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-icons">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-icons">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-icons">
+      <img src="icons/originals.svg">
+       <div>Originals</div>
+  </div>
+    <div class="sidebar-icons">
+      <img src="icons/youtube-music.svg">
+      <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-icons">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </div>
 
 <div class="video-grid">
   <div class = 'video-preview'>
     <div class="thumbnail-row">
-       <img class="thumbnail" src="thumbnails/hq720.webp">
+       <a href="https://www.youtube.com/watch?v=VnJMHBrKMn8" class="link"><img class="thumbnail" src="thumbnails/hq720.webp"></a>
        <div class="video-time">9:26</div>
     </div>
     <div class="video-info-grid"> 
       <div class="channel-pfp">
-        <img class="profile-picture" src="pfp/abapreach.jpg">
+        <a href="https://www.youtube.com/@AbaNPreach"><img class="profile-picture" src="pfp/abapreach.jpg"></a>
       </div>
       <div class="v-info">
         <p class="v-title">
-          Nobody Owes Him An Apology. PROOF
+          <a href="https://www.youtube.com/watch?v=VnJMHBrKMn8" class="link">Nobody Owes Him An Apology. PROOF</a>
          </p>
          <p class="v-creator">
-          Aba N Preach
+          <a href="https://www.youtube.com/@AbaNPreach" class="link2">Aba N Preach</a>
          </p>
          <p class="v-stats">
           176k views &#183; 6 hours ago
@@ -63,19 +97,19 @@
 
    <div class = 'video-preview'>
     <div class="thumbnail-row">
-       <img class="thumbnail" src="thumbnails/coffe.webp">
+       <a href="https://www.youtube.com/watch?v=bBUkajbg688" class="link"><img class="thumbnail" src="thumbnails/coffe.webp"></a>
        <div class="video-time">13:53</div>
     </div>
     <div class="video-info-grid"> 
       <div class="channel-pfp">
-        <img class="profile-picture" src="pfp/coffe.jpg">
+        <a href="https://www.youtube.com/@Coffeezilla"><img class="profile-picture" src="pfp/coffe.jpg"></a>
       </div>
       <div class="v-info">
         <p class="v-title">
-          Youtuber Bank Wont Let You Withdraw Money
+         <a href="https://www.youtube.com/watch?v=bBUkajbg688" class="link">Youtuber Bank Wont Let You Withdraw Money</a> 
          </p>
          <p class="v-creator">
-          Coffeezilla
+          <a href="https://www.youtube.com/@Coffeezilla" class="link2">Coffeezilla</a>
          </p>
          <p class="v-stats">
           3.7M views &#183; 3 days ago
@@ -86,19 +120,19 @@
 
    <div class = 'video-preview'>
     <div class="thumbnail-row">
-       <img class="thumbnail" src="thumbnails/beta.webp">
+       <a href="https://www.youtube.com/watch?v=mGHzatdMdp0" class="link"><img class="thumbnail" src="thumbnails/beta.webp"></a>
        <div class="video-time">38:18</div>
     </div>
     <div class="video-info-grid"> 
       <div class="channel-pfp">
-        <img class="profile-picture" src="pfp/ndl.jpg">
+        <a href="https://www.youtube.com/@NDL"><img class="profile-picture" src="pfp/ndl.jpg"></a>
       </div>
       <div class="v-info">
-        <p class="v-title">
-          LIE DETECTOR TEST: BETA SQUAD EDITION
+        <p class="v-title" ><a href="https://www.youtube.com/watch?v=mGHzatdMdp0" class="link">LIE DETECTOR TEST: BETA SQUAD EDITION</a>
          </p>
          <p class="v-creator">
-          NDL
+          <a href="https://www.youtube.com/@NDL" class="link2">NDL</a>
+          
          </p>
          <p class="v-stats">
           465k views &#183; 9 hours ago
@@ -109,19 +143,20 @@
 
    <div class = 'video-preview'>
     <div class="thumbnail-row">
-       <img class="thumbnail" src="thumbnails/USA.webp">
+       <a href="https://www.youtube.com/watch?v=wNtnLwJSKCU" class="link"><img class="thumbnail" src="thumbnails/USA.webp"></a>
        <div class="video-time">1:03:20</div>
     </div>
     <div class="video-info-grid"> 
       <div class="channel-pfp">
-        <img class="profile-picture" src="pfp/wendigoon.jpg">
+        <a href="https://www.youtube.com/@Wendigoon"><img class="profile-picture" src="pfp/wendigoon.jpg"></a>
       </div>
       <div class="v-info">
         <p class="v-title">
-          Did the U.S. Sabotage Their Own Rifles in Vietnam?
+         </p>
+         <a href="https://www.youtube.com/watch?v=wNtnLwJSKCU" class="link"> Did the U.S. Sabotage Their Own Rifles in Vietnam?</a>
          </p>
          <p class="v-creator">
-          Wendigoon
+          <a href="https://www.youtube.com/@Wendigoon" class="link2">Wendigoon</a>
          </p>
          <p class="v-stats">
           165k views &#183; 5 hours ago
@@ -133,19 +168,19 @@
 
    <div class = 'video-preview'>
     <div class="thumbnail-row">
-       <img class="thumbnail" src="thumbnails/minecraft.webp">
+       <a href="https://www.youtube.com/watch?v=mFdom_1jmhQ" class="link"><img class="thumbnail" src="thumbnails/minecraft.webp"></a>
        <div class="video-time">3:02</div>
     </div>
     <div class="video-info-grid"> 
       <div class="channel-pfp">
-        <img class="profile-picture" src="pfp/daniel.jpg">
-      </div>
+        <a href="https://www.youtube.com/@HazardousDaniel"><img class="profile-picture" src="pfp/daniel.jpg">
+        </div></a>
       <div class="v-info">
         <p class="v-title">
-          Minecraft Unlimited Modpack Release Trailer
+          <a href="https://www.youtube.com/watch?v=mFdom_1jmhQ" class="link">Minecraft Unlimited Modpack Release Trailer</a>
          </p>
          <p class="v-creator">
-          HazardousDaniel
+          <a href="https://www.youtube.com/@HazardousDaniel" class="link2">HazardousDaniel</a>
          </p>
          <p class="v-stats">
           638k views &#183; 3 weeks ago
@@ -156,19 +191,19 @@
 
    <div class = 'video-preview'>
     <div class="thumbnail-row">
-       <img class="thumbnail" src="thumbnails/eldenring.webp">
+       <a href="https://www.youtube.com/watch?v=A_Zrtq7_RZ4"><img class="thumbnail" src="thumbnails/eldenring.webp"></a>
        <div class="video-time">11:05</div>
     </div>
     <div class="video-info-grid"> 
       <div class="channel-pfp">
-        <img class="profile-picture" src="pfp/eldenring.jpg">
+        <a href="https://www.youtube.com/@Ziostorm"><img class="profile-picture" src="pfp/eldenring.jpg"></a>
       </div>
       <div class="v-info">
         <p class="v-title">
-          Brutally Honest Elden Ring DLC Criticisms...
+          <a href="https://www.youtube.com/watch?v=A_Zrtq7_RZ4" class="link">Brutally Honest Elden Ring DLC Criticisms...</a>
          </p>
          <p class="v-creator">
-          Ziostorm
+          <a href="https://www.youtube.com/@Ziostorm" class="link2">Ziostorm</a>
          </p>
          <p class="v-stats">
           126k views &#183; 1 day ago

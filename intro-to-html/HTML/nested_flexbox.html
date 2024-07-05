@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nested Flexbox practice</title>
+</head>
+<style>
+  .item1{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text{
+    background-color: black;
+    color: white;
+  }
+</style>
+<body>
+  <div style="display: flex;
+  flex-direction: row;
+  height: 70px;
+  margin-bottom: 20px;">
+    <div class="item1"><p class="text">item1</p></div>
+    <div style="background-color: lightblue;
+    width: 200px;"></div>
+  </div>
+
+  <div style="display: flex;
+  flex-direction: row;">
+    <div style="background-color: lightpink;width: 100px;"></div>
+    <div style="background-color: lightblue;width: 200px;
+    display: flex;
+    flex-direction: column;">
+      <div style="display:flex;"><p>row1</p></div>
+      <div style="display: flex;
+      flex-direction: row;
+      justify-content: space-between;"><p class="text">row2</p><p class="text">row2</p></div>
+    </div>
+  </div>
+</body>
+</html>

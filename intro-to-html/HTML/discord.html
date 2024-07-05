@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord</title>
+</head>
+<style>
+  .sidebar1{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 90px;
+    background-color:	rgb(30,33,36) ;
+    align-items: center;
+  }
+  img{
+    width: 60px;
+    border-radius: 35px;
+    margin-bottom: 10px;
+  }
+  .sidebar2{
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 200px;
+    left: 90px;
+    background-color: rgb(66,69,73);
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(146, 146, 146);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+</style>
+<body>
+  <div style="display: flex;
+  flex-direction: row;">
+    <div class = "sidebar1" style="display: flex;
+    flex-direction: column;">
+      <img style="margin-top: 10px;" src="../photos/mario.jpeg">
+      <img src="../photos/amazu.jpg">
+      <img src="../photos/ian.jpg">
+    </div>
+    <div class="sidebar2" style="display: flex;
+    flex-direction: column;">
+      <div style="display: flex;
+      flex-direction: row;
+      justify-content: space-between;">
+        <p style="font-weight: bold;
+        font-size: 18px;">INFO</p>
+        <p style="font-size: 18px; margin-right: 10px;">+</p>
+      </div>
+      <p># new-videos</p>
+      <p># updates</p>
+      <p># faq</p>
+    </div>
+  </div>
+</body>
+</html>

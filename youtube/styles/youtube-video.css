@@ -35,13 +35,29 @@ body {
 }
 .video-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   row-gap: 40px;
   column-gap: 16px;;
-  width: 100;
 }
+
+@media (max-width: 1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width:1001px) and (max-width:1499px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1500px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
 .video-time{
-  font-family:Roboto,arial;
   font-size: 12px;
   font-weight: 500;
   padding: 4px;
